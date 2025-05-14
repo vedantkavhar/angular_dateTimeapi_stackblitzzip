@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.time-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 300px;
+}
+
+.time {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.loading {
+  font-size: 1.1rem;
+  color: #777;
+}

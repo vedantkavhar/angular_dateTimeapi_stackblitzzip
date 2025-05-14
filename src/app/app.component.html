@@ -1,0 +1,24 @@
+<!-- <h2>Current Date & Time (Asia/Kolkata)</h2>
+
+<div *ngIf="isLoading">
+  <p>⏳ Loading...</p>
+</div>
+
+<div *ngIf="!isLoading">
+  <p>{{ currentTime }}</p>
+</div> -->
+
+<!-- <div class="time-box">
+<div *ngIf="isLoading" class="loading">Loading current time...</div>
+<div *ngIf="!isLoading" class="time">{{ currentTime }}</div>
+</div> -->
+
+<div class="time-box">
+<h2>International DateTime</h2>
+<div *ngIf="isLoading" class="loading"> ⏳ Loading times...</div>
+<div *ngIf="!isLoading">
+  <div *ngFor="let zone of timeZones" class="time">
+    <strong>{{ zone }}</strong>: {{ times[zone] }}
+  </div>
+</div>
+</div>
